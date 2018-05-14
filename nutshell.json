@@ -1,0 +1,194 @@
+{
+    "Users": [
+        {
+            "id": 1,
+            "username": "john11",
+            "password": "john11",
+            "email": "john@john.com",
+            "firstName": "John",
+            "lastName": "Smith"
+        },
+        {
+            "id": 2,
+            "username": "bob11",
+            "password": "bob11",
+            "email": "bob@bob.com",
+            "firstName": "Bob",
+            "lastName": "Jones"
+        },
+        {
+            "id": 3,
+            "username": "jason11",
+            "password": "jason11",
+            "email": "jason@jason.com",
+            "firstName": "Jason",
+            "lastName": "Waters"
+        },
+        {
+            "id": 4,
+            "username": "henry11",
+            "password": "henry11",
+            "email": "henry@henry.com",
+            "firstName": "Henry",
+            "lastName": "Goldman"
+        }
+    ],
+    "Relationships": [
+        {
+            "id": 1,
+            "userID": 1,
+            "followID": 2
+        },
+        {
+            "id": 2,
+            "userID": 1,
+            "followID": 3
+        },
+        {
+            "id": 3,
+            "userID": 2,
+            "followID": 3
+        },
+        {
+            "id": 4,
+            "userID": 3,
+            "followID": 4
+        },
+        {
+            "id": 5,
+            "userID": 3,
+            "followID": 2
+        },
+        {
+            "id": 6,
+            "userID": 2,
+            "followID": 1
+        }
+    ],
+    "Messages": [
+        {
+            "id": 1,
+            "userID": 1,
+            "message": "Hello",
+            "timeStamp": "2018-05-14T11:13"
+        },
+        {
+            "id": 2,
+            "userID": 3,
+            "message": "How's everything going?",
+            "timeStamp": "2018-05-14T11:21"
+        },
+        {
+            "id": 3,
+            "userID": 4,
+            "message": "What's up?",
+            "timeStamp": "2018-05-14T11:31"
+        },
+        {
+            "id": 4,
+            "userID": 1,
+            "message": "Hey",
+            "timeStamp": "2018-05-14T11:41"
+        },
+        {
+            "id": 5,
+            "userID": 2,
+            "message": "Where are you going?",
+            "timeStamp": "2018-05-14T11:51"
+        }
+    ],
+    "Articles": [
+        {
+            "id": 1,
+            "userID": 2,
+            "title": "Fibonacci JS",
+            "summary": "Fibonacci sequence algorithm in Javascript",
+            "url": "https://medium.com/developers-writing/fibonacci-sequence-algorithm-in-javascript-b253dc7e320e",
+            "timeStamp": "2018-05-14T11:51"
+        },
+        {
+            "id": 2,
+            "userID": 2,
+            "title": "Internet Regulation",
+            "summary": "This Is How Internet Regulation Can Go Really Wrong",
+            "url": "https://medium.com/s/new-world-crime/this-is-how-internet-regulation-can-go-really-wrong-f5ea6236bec9",
+            "timeStamp": "2018-05-13T11:51"
+        },
+        {
+            "id": 3,
+            "userID": 4,
+            "title": "Social Media history",
+            "summary": "Brief history of social media",
+            "url": "https://medium.com/@abbymnorman/a-historyofsocialmedia-85a045b3615d",
+            "timeStamp": "2018-05-14T11:51"
+        },
+        {
+            "id": 4,
+            "userID": 1,
+            "title": "The State of Cryptocurrency Mining",
+            "summary": "Cryptocurrency Mining",
+            "url": "https://blog.sia.tech/the-state-of-cryptocurrency-mining-538004a37f9b",
+            "timeStamp": "2018-05-14T11:51"
+        }
+    ],
+    "Events": [
+        {
+            "id": 1,
+            "userID": 1,
+            "name": "Nasvhille Dance Party",
+            "date": "2018-06-14",
+            "location": "Nasvhille"
+        },
+        {
+            "id": 2,
+            "userID": 2,
+            "name": "Nasvhille Code meeting",
+            "date": "2018-06-15",
+            "location": "Nasvhille"
+        },
+        {
+            "id": 3,
+            "userID": 2,
+            "name": "Nasvhille Bitcoin meetup",
+            "date": "2018-06-16",
+            "location": "Nasvhille"
+        },
+        {
+            "id": 4,
+            "userID": 3,
+            "name": "Nasvhille JS meetup",
+            "date": "2018-06-18",
+            "location": "Nasvhille"
+        }
+    ],
+    "Tasks": [
+        {
+            "id": 1,
+            "userID": 1,
+            "name": "Cut Grass",
+            "dueDate": "2018-05-14",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "userID": 2,
+            "name": "Nasvhille Code meeting",
+            "dueDate": "2018-05-15",
+            "completed": false
+        },
+        {
+            "id": 3,
+            "userID": 3,
+            "name": "Nasvhille Bitcoin meetup",
+            "dueDate": "2018-05-16",
+            "completed": false
+        },
+        {
+            "id": 4,
+            "userID": 4,
+            "name": "Nasvhille JS meetup",
+            "dueDate": "2018-05-18",
+            "completed": false
+        }
+    ]
+}
